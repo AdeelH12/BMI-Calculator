@@ -1,0 +1,48 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,p {
+
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+p {
+
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-yes-container, 
+.submit{
+
+    text-align: center;
+    margin-top: 25px;
+}
+
+#submit-btn,
+#metrics_submit_btn {
+
+    border-color: red;
+    background-color: red;
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    color: #fff;
+}
+
+.label-feet,
+.label-inches,
+.weight-container {
+
+    text-align: center;
+    margin-top: 25px;
+
+}
+

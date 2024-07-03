@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate BMI</title>
+    <link rel="stylesheet" href="./css/calculate.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="header-container">
+            <h1>
+                Calculate Your BMI
+            </h1>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1>
+                Are you aged 18 or over?
+            </h1>
+
+            <div class="input-yes-container">
+                <input type="radio" id="radio_id_yes" name="radio" value="yes">
+                <label>Yes</label>
+            </div>
+            
+            <div class="submit">
+                <button id="submit-btn" onclick="checkAge()">Submit</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+            <div class="age-check-container" id="ifAge">
+
+            </div>
+    </section>
+
+    <section  id="metrics">
+        <div class="metric-container">
+            <h1>
+                Height
+            </h1>
+
+            <p>
+                What is your height?
+            </p>
+
+            <div class="label-feet">
+                <input id="input_feet" type="number" placeholder="Feet">
+            </div>
+            
+            <div class="label-inches">
+                <input id="input_inches" type="number" placeholder="Inches">
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section>
+        <div>
+            <h1>What is your weight (Kg)?</h1>
+        </div>
+        
+        <div class="weight-container">
+            <input id="input_weight" type="number" placeholder="Weight in KG">
+        </div>
+       
+
+        <div class="metrics_btn submit">
+            <button id="metrics_submit_btn" onclick="metrics()">Submit</button>
+        </div>
+
+    </section>
+
+    <section class="bmi-result">
+        <div>
+            <h1>
+                Your BMI is
+            </h1>
+
+            <p id="display-bmi"></p>
+            <p id="outcome"></p>
+        </div>
+
+        <div>
+            <p id="advice"></p>
+        </div>
+    </section>
+
+    
+
+   <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,p {
+
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+p {
+
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-container{
+
+
+    text-align: center;
+
+}
+
+.button-container a {
+
+    text-decoration: none;
+    
+}
+
+.button-calc {
+
+    border-color: red;
+    background-color: red;
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5%;
+    color: #fff;
+  
+}
+
+
+.button-calc:hover{
+
+    cursor: pointer;
+}
+
+.button-calc:active{
+
+    background-color: black;
+   
+}
